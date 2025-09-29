@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auto brightness</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Auto brightness with webcam</h1>
+            <video id="webcam" width="320" height="240" autoplay
+                style="display: none;"></video>
+            <canvas id="canvas" width="320" height="240"
+                style="display: none;"></canvas>
+            <p>Ambient brightness: <span id="brightness">0</span></p>
+            <p>Screen brightness: <span
+                    id="suggestedBrightness">0</span>%</p>
+        </div>
+        <span class="copyright">By <a href="https://github.com/arshiya-shadow" target="_blank">Arshiya Fardinfar</a></span>
+    </body>
+    <script src="js/script1.js" defer></script>
+    <script src="js/script2.js" defer></script>
+</html>
